@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # Ruta donde se encuentran los archivos Excel
-ruta_archivos = r'C:\Users\admin\Downloads\SGD DATA'
-nombres_archivos = ['DGOS.xlsx', 'DIEM.xlsx', 'DIMON.xlsx']  # Nombres de los archivos
+ruta_archivos = r'd:\SGD-DATA'
+nombres_archivos = ['DGOS.xls', 'DIEM.xls', 'DIMON.xls']  # Asegúrate de cambiar la extensión a .xls
 
 # Lista para almacenar DataFrames
 dataframes = []
